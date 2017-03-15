@@ -22,7 +22,7 @@ body {
 	position: relative;
 }
 form {
-	height: 190px;
+	height: 250px;
 	width: 630px;
 	background: white;
 	border-radius: 10px;
@@ -34,14 +34,32 @@ form {
 }
 form h2 {
 	color: #646464;
+	text-transform: uppercase;
 }
-form input {
+form input[type=text] {
 	display: block;
+	padding: 5px 10px;
 	margin-top: 25px;
+	width: 470px;
+	font-size: 11px;
+	height: 20px;
 }
 form select {
 	display: block;
+	padding: 5px 10px;
 	margin-top: 25px;
+	width: 500px;
+	height: 30px;
+	font-size: 11px;
+	background-color: white;
+	border-radius:4px;
+}
+form input[type=submit] {
+	display: block;
+	margin-top: 25px;
+	font-size: 11px;
+	height: 25px;
+	width: 100px;
 }
 h2 {
 	background-color: white;
